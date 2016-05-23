@@ -12,7 +12,7 @@ use bitcodin\exceptions\BitcodinException;
 use bitcodin\exceptions\BitcodinResourceNotFoundException;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;
-use GuzzleHttp\Message\Response;
+use GuzzleHttp\Psr7\Response;
 
 /**
  * Class ApiResource
